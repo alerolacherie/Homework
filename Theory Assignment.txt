@@ -9,7 +9,7 @@ Question 2:
 Explain the difference between HTML elements and HTML attributes. Provide examples of each.
 
 HTML elements consist of an opening or start tag, the enclosed content and the closing or end tag.
-Examples of HTML elements are
+Examples of HTML elements are:
  <h1> This is a Header </h1>
  <p> This is an example of an HTML element from the starting tag <p> to the ending tag </p>
 While 
