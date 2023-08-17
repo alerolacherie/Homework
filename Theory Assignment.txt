@@ -1,0 +1,114 @@
+Question 1:
+What does HTML stand for, and what is its primary purpose in web development?
+
+HTML stands for Hyper Text Markup Language.
+Its primary purpose is to to develop web pages and web applications that run on web browsers like Chrome, Firefox, Microsoft Edge, e.t.c.
+
+
+Question 2:
+Explain the difference between HTML elements and HTML attributes. Provide examples of each.
+
+HTML elements consist of an opening or start tag, the enclosed content and the closing or end tag.
+Examples of HTML elements are
+ <h1> This is a Header </h1>
+ <p> This is an example of an HTML element from the starting tag <p> to the ending tag </p>
+While 
+HTML attributes provide additional information about HTML elements, they provide additional information about the elements, are specified in the opening tag and are usually in name/value pairs
+Examples are
+<a href=“https://www.blackgirlsintech.co.uk”> <a/>
+<img src="img_plant.jpg" width="600" height="700">
+<img src="img_plant.jpg" alt="Red Plant">
+
+
+Question 3:
+What is the purpose of the “DOCTYPE” declaration in an HTML document? What happens if you omit it?
+
+The declaration is for a web browser to be instructed on what version of HTML the page is written in. It ensures that the web page is understood the same way by different web browsers
+If omitted, the browser will be forced to switch to quirky mode. This means that the browser will do its best to layout the page that is considered to be old or created against web standards which is against our latest standards of HTML 5.
+
+
+Question 4:
+Describe the difference between inline elements and block-level elements in HTML. Give examples of each.
+
+Inline elements only use up the exact amount of space it needs in the webpage. It starts on the same line.
+E.g <span> Hello World </span>, <a> href=”https://blackgirlsintech.com” <a>, <b>, <small>, <big> e.t.c.
+While
+A Block level element spans the whole width of the webpage no matter what size of the browser it is.It does not start on the same line but a new line.
+<p> Hello World </p>, <div> Hello World </div>, <h1>-</h6>, <header>, <footer>, <form> e.t.c.
+
+
+Question 5:
+Explain the significance of the following HTML tags and their usage:
+
+<head>- The <head> tag is  used to define the head portion of the web document which contains information related to the document. It contains the following elements: <title>, <style>, <meta>, <link>, <script>, and <base>.
+<div>- Also known as division tag, is used to make divisions of content in the web page like (text, images, header, footer, navigation bar, etc).
+<a>- It defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+<img>- it is used to embed an image in an HTML page. It creates a holding space for the referenced image
+<u>- stands for underline, and it's used to underline the text enclosed within the <u> tag. It is also used to underline misspelled words.
+<ol>- defines an ordered list. An ordered list can be numerical or alphabetical. The <li> tag is used to define each list item.
+<li>- it is used to represent an item in a list either ordered<ol> or unordered<ul>
+
+
+Question 6:
+What are semantic HTML elements? Provide examples of semantic elements and explain why they are important for web accessibility and SEO.
+
+Semantic HTML elements define the meaning of the content they contain. They clearly show their meaning to the developer and browser
+E.g <section>
+<h1>Alero Lacherie at BGIT</h1>
+<p>Alero Lacherie is an aspiring Frontend developer at the BGIT boot camp that started in August, 2023.</p>
+</section>
+<article>
+<h2>BGIT</h2>
+<p>BGIT stands for Black Girls In Tech. They are constantly working out ways to make the girl child successful!</p>
+</article>
+
+They are important for web accessibility as physically disadvantaged readers such as the blind or visually impaired to understand the web content better because their screen readers will communicate its content more accurately.
+For SEO, they indicate the role of the content within the tags thereby increasing the chances that the webpage content will be selected for ranking on the search engine results page (SERP) for relevant keywords.
+
+
+Question 7:
+What is the purpose of the HTML form element (<form>) and its associated form controls? Provide examples of common form controls.
+
+Form element provides a document section to take input/ accept data from the web user. It provides various interactive controls (Form controls) for submitting information to the web server.
+Examples of common form controls are text fields that may require name, email address, password fields, submit button, menus, etc.
+
+
+Question 8:
+How can you add comments in HTML? Why are comments useful in web development?
+
+You can add comments in HTML using this syntax <!-- This is a comment -->  (excluding the ”This is a comment”)
+They are useful in web development to document HTML source codes, debugging HTML, because one can comment out HTML lines of code, one at a time, to search for errors especially when it is a collaborative project. 
+
+
+Question 9:
+What is the HTML5 standard, and what are some of the new features introduced in HTML5?
+
+The HTML 5 standard is the standardized descriptive hypertext markup language specifying how to build and structure web pages.
+Some of the new features in HTML 5 are
+Making code easier to read for users and screen readers
+Reduced overlap between HTML, CSS, and JavaScript
+Promotion of design responsiveness and consistency across browsers
+Multimedia support without the need for Flash or other plugins
+
+
+Question 10:
+Explain the concept of ”responsive web design” and how HTML contributes to creating responsive websites.
+
+Responsive web design is an approach to designing and developing websites in a way that ensures optimal user experience and functionality across a variety of devices and screen sizes. Its goal is to create a single website that can adapt and respond to different device characteristics, such as desktop computers, laptops, tablets, and smartphones.
+The key principles of responsive web design include:
+
+1. Fluid Grids: Instead of using fixed-width layouts, responsive design employs fluid grids that proportionally adjust the size of elements based on the screen's width. This ensures that content and images scale smoothly and maintain their relative positions.
+2. Flexible Images: Images are resized and scaled proportionally to fit different screen sizes. This prevents images from being too large or too small, maintaining visual quality and overall design integrity.
+3. Breakpoints: Breakpoints are specific screen widths at which the design and layout of the website change to accommodate different device sizes. At each breakpoint, the design might reorganize content, adjust font sizes, or modify navigation elements.
+4. Flexible Content: Content elements, such as text and images, are structured and styled to adapt seamlessly to different screen sizes. This ensures that users can read and interact with the content without zooming or scrolling excessively.
+
+Responsive web design offers several benefits such as:
+Improved User Experience, cost-effectiveness, better SEOs, future-proofing, single URL, e.t.c.
+
+HTML contributes to creating responsive websites by the use of:
+1. Structural Elements: HTML provides a range of structural elements that define the layout and content of a webpage. Elements like <header>, <nav>, <main>, <section>, and <footer> help organize the content semantically.
+2. Viewport Meta Tag: The <meta> tag with the "viewport" attribute is used to inform the browser how to scale and adjust the webpage's dimensions to fit the device's screen. This tag is particularly important for responsive design, as it ensures that the content is displayed at an appropriate scale and prevents issues like content being too small or too large on mobile devices.
+3. Media Embeds: HTML supports embedding various types of media, such as images, videos, and audio. When creating a responsive design, using appropriate attributes like width and height or utilizing CSS for styling media elements ensures that they adjust to different screen sizes while maintaining their aspect ratio.
+4. Image Elements: HTML's <img> element is essential for embedding images in web content. Using responsive attributes like srcset and sizes allows you to provide multiple image sources and define which image to load based on the device's screen size and resolution.
+5. Flexible Grids: While the CSS Grid and Flexbox are used for layout, HTML provides the structure on which these layout techniques are applied.
+6. Accessibility Elements: HTML includes features like semantic headings, lists, and semantic elements that improve accessibility for users of assistive technologies. By using these elements properly, you create a strong foundation for a responsive and inclusive design.
