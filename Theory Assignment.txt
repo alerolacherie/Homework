@@ -17,7 +17,7 @@ HTML attributes provide additional information about HTML elements, they provide
 Examples are
 <a href=“https://www.blackgirlsintech.co.uk”> <a/>
 <img src="img_plant.jpg" width="600" height="700">
-<img src="img_plant.jpg" alt="Red Plant">
+<img src="img_plant.jpg" alt="Blue Plant">
 
 
 Question 3:
