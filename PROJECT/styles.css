@@ -1,0 +1,53 @@
+h2{
+    margin: 0;
+    padding: 0
+}
+
+p::first-letter{
+    color: #ffff;
+    font-size: xx-large; 
+}
+
+h2::after{
+    content: "*";
+    font-style: 20px;
+    color: blue;
+}
+
+h3{
+    letter-spacing: 1px;
+}
+
+header{
+    font: 500;
+    font-size: large;
+    color: brown;
+}
+
+header:hover{
+    background: #05d1ff;
+}
+
+div{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.article-container{
+    background-color: rgb(0, 255, 221);
+    padding: 20px;
+    border: 50px ;
+    font-size: medium;
+    line-height: 30% ;
+    margin: 10px;
+}
+
+highlight{
+    background-color: burlywood;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.h3:hover{
+    background-color: red;
