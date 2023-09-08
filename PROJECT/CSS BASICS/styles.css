@@ -1,0 +1,86 @@
+/* styling for body */
+body{
+    background-color: powderblue;
+    margin: 0;
+    padding: 0;
+}
+
+/* styling for heading */
+h1{
+   margin: 0;
+   font-family:sans-serif;
+   font-size: x-large ;
+   color: black;
+   text-align: center;
+}
+
+/* styling for paragraph */
+p{
+    font-family: cursive;
+    font-size: large;
+    line-height: 30px;
+    color: black;
+    text-align: center;
+}
+
+/* border styling for section containing second paragraph */
+.section{
+    border-style: solid;
+    border-color: white;
+    border-width: 5px 5px;
+}
+
+/* styling for image */
+img{
+    width: 100%;
+    height: auto;
+    float: auto;
+}
+
+/* added styling using flexbox for navbar*/
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* added styling using flexbox items for navbar */
+.flex-item{
+    flex: 1;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px 10px;
+    background-color: mistyrose;
+    color: black;
+    text-align: center;
+}
+@media(max-width: 600px) {
+    body{
+     background-color: mistyrose;
+ }
+.flex-container{
+    flex-direction: column;
+}
+.flex-item{
+    width: 100px;
+    background-color: powderblue;
+    color: black;
+}
+.section{
+    font-size: medium;
+    flex-direction: column;
+    border-color: powderblue;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+p{
+    font-size: medium;
+    color: black;
+    text-align: center;
+    flex-direction: column;
+}
+}

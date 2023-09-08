@@ -1,0 +1,22 @@
+body, h1, h2, p{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.flex-item{
+    flex: 1;
+    float:right;
+    padding: 14px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+}
+

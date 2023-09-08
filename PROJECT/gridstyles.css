@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto repeat(3, 150px) auto;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "header header header"
+    "sidebar main main"
+    "sidebar main main"
+    "sidebar main main"
+    "footer footer footer"
+}
+
+.grid-item{
+    background-color: deeppink;
+    padding: 20px;
+    text-align: center;
+}
+
+.header{
+    grid-area: header;
+    background-color: crimson;
+    color: white
+}
+
+.footer{
+    grid-area: footer;
+    background-color: crimson;
+    color: white
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: crimson;
+    color: white
+}
+
+.main{
+    grid-area: main;
+}
+
+@media(max-width:600px){
+    .grid-container {
+        grid-template-columns:1fr ;
+        grid-template-areas: 
+        "header"
+        "sidebar"
+        "main"
+        "footer"
+    }
+}

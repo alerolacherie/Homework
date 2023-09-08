@@ -1,0 +1,72 @@
+ <div class="hero">
+     <h1>Web Design Services</h1>
+     <p> we provide web services</p>
+     <a href="" class="button"> Enquire</a>
+    </div>
+    <div class="container">
+        <h2> Our Services</h2>
+        <div class="flex-container">
+
+        </div>
+
+
+    </div>
+    <div>
+        <div class="card">
+            <h2> Web Design </h2>
+            <p>We provide web services</p>
+        </div>
+    </div>
+
+    div {
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+        }
+NEW CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Web Design Services</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box red">Box 1</div>
+        <div class="box green">Box 2</div>
+        <div class="box blue">Box 3</div>
+    </div>
+</body>
+</html>
+
+        body{
+            margin: 0;
+            font-family: arial, sans-serif;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .box{
+            width:200px ;
+            height:200px ;
+            padding:20px ;
+            text-align:center;
+            color:white ;
+            font-size:18px ;
+        }
+        .red{
+            background-color: #e74c3c;
+        }
+        .green{
+            background-color: #27ae60;
+        }
+        .blue{
+            background-color: #3498db;
+        }

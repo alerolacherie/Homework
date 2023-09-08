@@ -1,11 +1,18 @@
-h2{
-    margin: 0;
-    padding: 0
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: 500;
+    font-size: large;
+    color: brown;
+    text-align: center;
+}
+
+header:hover{
+    background: #05d1ff;
 }
 
 p::first-letter{
     color: #ffff;
-    font-size: xx-large; 
+    font-size: x-large; 
 }
 
 h2::after{
@@ -15,39 +22,45 @@ h2::after{
 }
 
 h3{
+    letter-spacing: 1px; 
+}
+
+p{
     letter-spacing: 1px;
-}
-
-header{
-    font: 500;
-    font-size: large;
-    color: brown;
-}
-
-header:hover{
-    background: #05d1ff;
+    line-height: 100%;
+    text-align: left; 
 }
 
 div{
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
 
 .article-container{
     background-color: rgb(0, 255, 221);
+    color: black;
     padding: 20px;
-    border: 50px ;
+    border: 10px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
+    font-weight: lighter;
     line-height: 30% ;
     margin: 10px;
 }
-
-highlight{
-    background-color: burlywood;
+.article-container:hover{
+    background-color: purple;
+    color: white;
     font-weight: bold;
-    font-style: italic;
 }
 
-.h3:hover{
+.highlight{
+    background-color: cyan
+    color: black;
+}
+
+.highlight:hover{
     background-color: red;
+    color: white;
+}
+

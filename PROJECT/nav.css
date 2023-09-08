@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    flex: 1;
+    padding: 30px;
+    background-color: aqua;
+    text-align: center;
+    width: 200px;
+}
+
+@media (max-width: 600px) {
+    .flex-container{
+        flex-direction: column; 
+    }
+    .navbar{
+        width: 100%;
+    }
+}

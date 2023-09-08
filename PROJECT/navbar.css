@@ -1,0 +1,27 @@
+body, h1, p{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center ;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.flex-item{
+    flex: 1;
+    padding: 30px;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    flex: 1;
+    padding: 17px;
+    background-color: aqua;
+    align-items: center;
+}
