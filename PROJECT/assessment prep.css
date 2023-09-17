@@ -1,0 +1,55 @@
+/* styling for body of website */
+body,h1,p{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+/* individual styling of heading */
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* individual styling for paragraph */
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* individual styling for image */
+img{
+    width: 100%;
+    height: auto;
+    float: auto;
+}
+/* styling for navbar container */
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/*  styling for navbar */
+.navbar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex: 1;
+    padding: 20px;
+    background-color: chocolate;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+/* responsive design */
+@media (max-width: 600px) {
+    .flex-container{
+        flex-direction: column; 
+    }
+    .navbar{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
