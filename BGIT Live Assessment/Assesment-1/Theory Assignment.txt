@@ -1,13 +1,13 @@
 HTML Basics
 
-Define HTML and explain its role in web development.
+1. Define HTML and explain its role in web development.
 HTML stands for Hyper Text Markup Language. 
 Its role is to develop webpages and web applications that run on browsers like Microsoft Edge, Mozilla Firefox, Google Chrome e.t.c,.
 It serves as a foundational structure for web development. It is based on this structure that webpages are built
 
 HTML Elements and Structure
 
-Describe the basic structure of an HTML document.
+2. Describe the basic structure of an HTML document.
 The basic structure of an HTML Documents include:
 HEAD: This contains the information about the HTML document. For Example, the Title of the page, version of HTML, Meta Data, etc.
 BODY: This contains everything you want to display on the Web Page.
@@ -26,7 +26,7 @@ Below is how it looks:
 </html>
 
 
-List and briefly explain three essential HTML tags.
+3. List and briefly explain three essential HTML tags.
 1. <html>
 2. <head>
 3. <body>
@@ -47,7 +47,7 @@ List and briefly explain three essential HTML tags.
    - This tag is essential as it represents the core content of the web page.
 
 CSS Basics
-Define CSS and explain its purpose in web design.
+4. Define CSS and explain its purpose in web design.
 
 CSS stands for Cascading Style Sheets
 It is a styling language that is used to present the decoration and layout of documents for files written in HTML.
@@ -57,14 +57,14 @@ It helps when creating sites for different screens(responsive design),It adds mo
 It also helps for styling and formatting e.g font sixe, font family, color, backfround color, e.t.c,
 
 CSS Selectors and Properties
-Define CSS selectors and provide examples of at least two different types.
+5. Define CSS selectors and provide examples of at least two different types.
 A CSS selector selects the HTML element(s) you want to style.
 
 The element selector selects HTML elements based on the element name. e.g p{},h{} body{}
 The CSS class Selector- It selects HTML elements with a specific class attribute. To select elements with a specific class, write a period (.) character, followed by the class name.
 e.g .flex-container, .navbar, .flex-item etc.
 
-Explain the purpose of the CSS color property and provide an example of its usage.
+6. Explain the purpose of the CSS color property and provide an example of its usage.
 The CSS color property is used to format the text color of the HTML element.
 e.g 
 h1{
@@ -73,7 +73,7 @@ h1{
 
 
 CSS Box Model
-Describe the CSS Box Model and its components.
+7. Describe the CSS Box Model and its components.
 The CSS Box Model is a fundamental concept in web design and layout. 
 It describes how elements on a web page are rendered as rectangular boxes, and it consists of several components that determine the size, spacing, and layout of these boxes. 
 The key components of the CSS Box Model are as follows:
@@ -96,7 +96,7 @@ Margin is the space between the element's border and adjacent elements in the la
 It creates separation between elements. You can define margins using the margin property. 
 Similar to padding, margins can be set for each side individually (e.g., margin-top, margin-right, margin-bottom, and margin-left).
 
-Explain how you can change the width and height of an element using CSS
+8. Explain how you can change the width and height of an element using CSS
 
 You can change the width and height of an element using CSS by applying the width and height properties to the CSS rule for the specific element to be styled. 
 These properties allow you to define the dimensions of the element in various units, such as pixels, percentages, and more.
