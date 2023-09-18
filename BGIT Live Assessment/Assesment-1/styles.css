@@ -1,0 +1,35 @@
+/* styling for body */
+body{
+    background-color: lightcoral;   
+}
+
+/* styling for heading */
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+}
+
+/* styling for paragraph */
+p{
+    font: 400;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: wheat;
+}
+
+/* styling for image */
+img{
+    margin: 5px;
+    padding: 10px;
+}
+
+@media(max-width: 600px) {
+    body{
+        background-color: coral;
+    }
+    p{
+        color: black;
+    }
+}
