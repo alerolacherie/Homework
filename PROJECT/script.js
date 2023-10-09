@@ -1,0 +1,1 @@
+console.log("Name:", Alero);("Age:", 26); ("Location:", Oyo );
