@@ -1,0 +1,25 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+}
+
+.container-j{
+    text-align: center;
+}
+
+.lead{
+    text-align: center;
+}
+
+.card{
+    background-color: pink;
+}
+
+@media(max-width: 600px){
+    .container-j{
+        text-align: left;
+    }
+    .lead{
+        text-align: left;
+    }
+}
