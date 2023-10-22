@@ -1,4 +1,18 @@
-let name = "Alero"
-let age ="26"
-let location ="Oyo"
-"My name is " + name + ". I am " + age + " years old, and I am currently in " + location + "."
+const person = {
+    firstName:"Kate"
+    lastName:"Smith"
+    age:"30"
+    address: { 
+        street:"Mountain"
+        city:"Mountain"
+        postCode:"Mountain"
+    }
+    greet:function () {
+        console.log("Hello, I am ${this.firstName} ${this.lastName}.")
+    }
+};
+
+console.log(person.firstName);
+
+person.greet{};
+
