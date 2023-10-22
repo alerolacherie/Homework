@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Assignment</title>
+    <style>
+        #textDiv{
+            color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <div id="textDiv"> <h1>This is a colored text. Click the button to see me change.</h1></div>
+    <button id="changeColorButton">Change Color</button>
+
+    <script>
+        // Array of colors
+        const colors = ['red', 'blue', 'green', 'yellow', 'purple'];
+        
+        // Get references to the button and text div
+        const changeColorButton = document.getElementById('changeColorButton');
+        const textDiv = document.getElementById('textDiv');
+        
+        // Initialize the current color index
+        let currentColorIndex = 0;
+        
+        // Function to change the text color
+        function changeTextColor() {
+            // Set the text color to the current color
+            textDiv.style.color = colors[currentColorIndex];
+            
+            // Increment the color index and loop back to the first color if needed
+            currentColorIndex = (currentColorIndex + 1) % colors.length;
+        }
+        
+        // Attach a click event listener to the button
+        changeColorButton.addEventListener('click', changeTextColor);
+    </script>
+</body>
+</html>
