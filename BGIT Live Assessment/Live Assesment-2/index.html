@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Recipe Card with Modal</title>
+</head>
+<body>
+    <div class="recipe-card">
+        <h2>Spaghetti Carbonara</h2>
+        <p>Ingredients:</p>
+        <ul>
+          <li>Pasta (Spagetthi)</li>
+          <li>Eggs</li>
+          <li>Parmesan Cheese</li>
+        </ul>
+        <p>Preparation:</p>
+        <ol>
+          <li>Boil water and cook pasta until al dente.</li>
+          <li>In a bowl, mix eggs and grated parmesan cheese.</li>
+          <li>Drain pasta and mix with egg and cheese mixture.</li>
+        </ol>
+        <p><strong>Cooking Time:</strong> 15 minutes</p>
+        <p>Difficulty: Easy</p>
+        <button class="view-details-btn">View Details</button>
+      </div>
+     
+      <div id="recipeModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Spaghetti Carbonara</h2>
+          <p>Ingredients:</p>
+          <ul>
+            <li>12 ounces (340g) spaghetti</li>
+            <li>4 large eggs</li>
+            <li>1 cup (100g) grated Parmesan cheese, plus extra for serving</li>
+            <li>8 slices of bacon or pancetta, diced</li>
+            <li>3 cloves garlic, minced</li>
+            <li>Freshly ground black pepper</li>
+            <li>Chopped fresh parsley for garnish (optional)</li>
+          </ul>
+          <p>Preparation:</p>
+          <ol>
+            <li>Cook the spaghetti in a large pot of boiling salted water according to package instructions until al dente.
+                Reserve about 1 cup of pasta water before draining.</li>
+            <li>In a bowl, whisk together the eggs, grated Parmesan cheese, and a generous amount of freshly ground black pepper.
+                Set aside.</li>
+            <li>In a skillet over medium heat, cook the diced bacon or pancetta until crispy.
+                Add minced garlic to the pan and cook for about 1 minute until fragrant.
+                Remove from heat.</li>
+            <li>
+                Once the pasta is cooked and drained, return it to the pot while it's still hot.
+                Immediately add the bacon and garlic mixture to the hot pasta and toss to combine.  
+            </li>
+            <li>
+                Quickly pour the egg and cheese mixture over the hot pasta.
+                Toss continuously and vigorously to coat the pasta evenly.
+                The heat of the pasta will cook the eggs, creating a creamy sauce.
+                Add a splash of reserved pasta water if needed to loosen the sauce.
+            </li>
+            <li>
+                Serve immediately while it's hot.
+                Garnish with extra grated Parmesan cheese, freshly ground black pepper, and chopped parsley if desired.
+            </li>
+          </ol>
+          <p>Cooking Time: 15 minutes</p>
+        </div>
+      </div>
+     
+      <script src="script.js"></script>
+</body>
+</html>
